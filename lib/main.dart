@@ -37,9 +37,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(50), // Creates border
                 color: Color(0xff14387c)),
             tabs: [
-              Tab(icon: Icon(Icons.flight)),
-              Tab(icon: Icon(Icons.directions_transit)),
-              Tab(icon: Icon(Icons.directions_car)),
+              Tab(icon: Icon(Icons.account_box)),
+              Tab(icon: Icon(Icons.notification_important_rounded)),
+              Tab(icon: Icon(Icons.card_giftcard)),
               Tab(icon: Icon(Icons.account_tree_outlined)),
             ],
           ),
@@ -47,9 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
         body: TabBarView(
           children: [
-            Icon(Icons.flight, size: 350),
-            Icon(Icons.directions_transit, size: 350),
-            Icon(Icons.directions_car, size: 350),
+            Icon(Icons.account_box, size: 350),
+            Icon(Icons.notification_important_rounded, size: 350),
+            Icon(Icons.card_giftcard, size: 350),
             Icon(Icons.account_tree_outlined, size: 350),
           ],
         ),
